@@ -1,0 +1,36 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   background-color: black;
+}
+
+#containerAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#number {
+    color: orange;
+    font-size: 90px;
+}
+
+#containerButton {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonDecrease, #buttonReset, #buttonIncrease {
+    border: 3px solid orange;
+    background-color: black;
+    color: orange;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#buttonDecrease:hover, #buttonReset:hover, #buttonIncrease:hover {
+    background-color: orange;
+    color: black;
+}
